@@ -1,0 +1,1 @@
+import{X as r}from"./index-30b6f64c.js";const i=r("utilities",{actions:{timeTransform(e){e&&e.toString().length<13&&(e*=1e3);const t=new Date(e),n=t.getMonth()+1<10?`0${t.getMonth()+1}`:t.getMonth()+1,o=t.getDate()<10?`0${t.getDate()}`:t.getDate();return`${n}-${o}-${t.getFullYear()}`}}});export{i as u};
